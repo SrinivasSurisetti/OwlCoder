@@ -1,0 +1,6 @@
+n=str(input())
+req=''
+for i in n:
+    if ord(i)>=ord('a') and ord(i)<=ord('z'):
+        req+=i
+print(req)
