@@ -1,0 +1,14 @@
+n=input()
+m=input()
+c,b=0,0
+for x,y in zip(n, m):
+    if x>y:
+        c+=1
+    elif y>x:   ##MUST COMPARE
+        b+=1
+if c<b:
+    print("Django")
+elif c>b:
+    print("Calvin")
+else:
+    print("Tie")
